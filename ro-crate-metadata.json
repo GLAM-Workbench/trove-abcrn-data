@@ -1,0 +1,333 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "author": [
+                {
+                    "@id": "0000-0001-7956-4498"
+                }
+            ],
+            "datePublished": "2023-12-15",
+            "description": "Metadata describing programs and segments broadcast on ABC Radio National, harvested from Trove.",
+            "hasPart": [
+                {
+                    "@id": "abcrn-metadata.ndjson"
+                },
+                {
+                    "@id": "abcrn-metadata.csv"
+                },
+                {
+                    "@id": "abcrn-am-metadata.csv"
+                },
+                {
+                    "@id": "abcrn-breakfast-metadata.csv"
+                },
+                {
+                    "@id": "abcrn-drive-metadata.csv"
+                },
+                {
+                    "@id": "abcrn-latenight-metadata.csv"
+                },
+                {
+                    "@id": "abcrn-lifematters-metadata.csv"
+                },
+                {
+                    "@id": "abcrn-pm-metadata.csv"
+                },
+                {
+                    "@id": "abcrn-scienceshow-metadata.csv"
+                },
+                {
+                    "@id": "abcrn-worldtoday-metadata.csv"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-music/blob/master/harvest-abcrn.ipynb"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-music/blob/master/explore-abcrn-data.ipynb"
+                }
+            ],
+            "license": {
+                "@id": "https://spdx.org/licenses/MIT"
+            },
+            "name": "trove-abcrn-data",
+            "url": "https://github.com/GLAM-Workbench/trove-abcrn-data",
+            "version": "v1.0"
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            },
+            "license": {
+                "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+            }
+        },
+        {
+            "@id": "abcrn-metadata.ndjson",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 356879730,
+            "dateModified": "2023-12-15",
+            "name": "abcrn-metadata.ndjson",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "abcrn-metadata.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 226471249,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "abcrn-metadata.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "abcrn-am-metadata.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 32369669,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "abcrn-am-metadata.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "abcrn-breakfast-metadata.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 44842760,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "abcrn-breakfast-metadata.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "abcrn-drive-metadata.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 13204597,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "abcrn-drive-metadata.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "abcrn-latenight-metadata.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 6557023,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "abcrn-latenight-metadata.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "abcrn-lifematters-metadata.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 6027926,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "abcrn-lifematters-metadata.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "abcrn-pm-metadata.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 29396511,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "abcrn-pm-metadata.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "abcrn-scienceshow-metadata.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 5143090,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "abcrn-scienceshow-metadata.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "abcrn-worldtoday-metadata.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "contentSize": 31106696,
+            "dateModified": "2023-12-15",
+            "encodingFormat": "text/csv",
+            "name": "abcrn-worldtoday-metadata.csv",
+            "sdDatePublished": "2023-12-15"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-music/blob/master/harvest-abcrn.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-music",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "",
+            "encodingFormat": "application/x-ipynb+json",
+            "name": "Download summaries and transcripts from oral histories",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            }
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-music/blob/master/explore-abcrn-data.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-music",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook shows a few ways you can start to explore the ABC Radio National metadata harvested from Trove.",
+            "encodingFormat": "application/x-ipynb+json",
+            "name": "Exploring ABC Radio National metadata",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7956-4498",
+            "@type": "Person",
+            "name": "Sherratt, Tim"
+        },
+        {
+            "@id": "https://spdx.org/licenses/MIT",
+            "@type": "CreativeWork",
+            "name": "MIT License",
+            "url": "https://spdx.org/licenses/MIT.html"
+        },
+        {
+            "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "@type": "CreativeWork",
+            "name": "CC0 Public Domain Dedication",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+            "@id": "https://www.python.org/downloads/release/python-31012/",
+            "@type": [
+                "ComputerLanguage",
+                "SoftwareApplication"
+            ],
+            "name": "Python 3.10.12",
+            "url": "https://www.python.org/downloads/release/python-31012/",
+            "version": "3.10.12"
+        },
+        {
+            "@id": "#harvest-abcrn_run",
+            "@type": "CreateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2023-12-15",
+            "instrument": {
+                "@id": "https://github.com/GLAM-Workbench/trove-music/blob/master/harvest-abcrn.ipynb"
+            },
+            "name": "Run of notebook: harvest-abcrn.ipynb",
+            "result": [
+                {
+                    "@id": "abcrn-metadata.ndjson"
+                },
+                {
+                    "@id": "abcrn-metadata.csv"
+                },
+                {
+                    "@id": "abcrn-am-metadata.csv"
+                },
+                {
+                    "@id": "abcrn-breakfast-metadata.csv"
+                },
+                {
+                    "@id": "abcrn-drive-metadata.csv"
+                },
+                {
+                    "@id": "abcrn-latenight-metadata.csv"
+                },
+                {
+                    "@id": "abcrn-lifematters-metadata.csv"
+                },
+                {
+                    "@id": "abcrn-pm-metadata.csv"
+                },
+                {
+                    "@id": "abcrn-scienceshow-metadata.csv"
+                },
+                {
+                    "@id": "abcrn-worldtoday-metadata.csv"
+                }
+            ]
+        },
+        {
+            "@id": "#explore-abcrn-data_run",
+            "@type": "CreateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2023-12-15",
+            "instrument": {
+                "@id": "https://github.com/GLAM-Workbench/trove-music/blob/master/explore-abcrn-data.ipynb"
+            },
+            "name": "Run of notebook: explore-abcrn-data.ipynb",
+            "object": [
+                {
+                    "@id": "abcrn-metadata.csv"
+                }
+            ]
+        },
+        {
+            "@id": "#create_version_v1_0",
+            "@type": "UpdateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2023-12-15",
+            "name": "Create version v1.0"
+        }
+    ]
+}
