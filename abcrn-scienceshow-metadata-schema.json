@@ -1,0 +1,56 @@
+{
+  "fields": [
+    {
+      "name": "work_id",
+      "type": "integer"
+    },
+    {
+      "name": "version_id",
+      "type": "integer"
+    },
+    {
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "name": "date",
+      "type": "string"
+    },
+    {
+      "name": "isPartOf",
+      "type": "string"
+    },
+    {
+      "name": "creator",
+      "type": "string"
+    },
+    {
+      "name": "contributor",
+      "type": "string"
+    },
+    {
+      "name": "abstract",
+      "type": "string"
+    },
+    {
+      "name": "type",
+      "type": "string"
+    },
+    {
+      "name": "format",
+      "type": "string"
+    },
+    {
+      "name": "fulltext_url",
+      "type": "string"
+    },
+    {
+      "name": "thumbnail_url",
+      "type": "string"
+    },
+    {
+      "name": "notonline_url",
+      "type": "any"
+    }
+  ]
+}
